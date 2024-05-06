@@ -19,8 +19,22 @@
         </div>
     </header>
 
-    <h1 class="titulo-principal">Precios de Pizarra</h1>
-    <div id="productos-container"></div>
+    <section id="busqueda-container">
+        <input type="text" id="busqueda" placeholder="Buscar por nombre">
+        <button id="filtrar-btn">Filtrar</button>
+    </section>
+
+    <div id="mensaje"></div>
+    <div id="productos-container" class="container"></div>
+
+    <div id="carrito-container">
+        <h2>Carrito de Compras</h2>
+        <ul id="carrito-lista"></ul>
+        <p><span id="total">0.00</span></p>
+        <button id="vaciar-carrito-btn">Vaciar Carrito</button>
+        <button id="comprar-btn">Comprar</button>
+        <p id="mensaje-confirmacion">¡Compra realizada con éxito!</p>
+    </div>
 
     <script src="script.js"></script>
 </body>

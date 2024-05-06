@@ -56,7 +56,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    width: 200px;
+    width: 190px;
     display: inline-block;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -66,18 +66,179 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    padding: 30px;
 }
 
 .card h2 {
-    margin-top: 20px;
-    font-size: 1.2em;
+    margin-top: 15px;
+    font-size: 17px;
 }
 
 .card p {
-    margin-bottom: 0;
+    margin: 10px;
+    font-size: 17px;
+    background-color: #EDCB78;
 }
 
+.card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #012B28;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
 
+.card button:hover {
+    background-color: #EDCB78;
+    color: #012B28;
+}
 
+#busqueda-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 
+#busqueda {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#filtrar-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #012B28;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#filtrar-btn:hover {
+    background-color: white;
+    color: #012B28;
+}
+
+#carrito-container {
+    min-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+    border-color: #012B28;
+}
+
+#carrito-container h2 {
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: #012B28;
+    text-align: center;
+    color: #EDCB78;
+    border-radius: 5px;
+}
+
+#carrito-container p {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border: solid 5px #012B28;
+    border-radius: 5px;
+}
+
+#total {
+    font-size: 30px;
+}
+
+#carrito-lista {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#carrito-lista li {
+    display: grid; /* Usamos grid en lugar de flexbox */
+    grid-template-columns: 1fr auto; /* Columnas: una para el texto y otra para los botones */
+    grid-gap: 10px; /* Espacio entre las columnas */
+    align-items: center;
+    margin: 10px 0;
+    font-size: 20px;
+    color: black;
+}
+
+#carrito-lista button {
+    gap: 10px;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 18px;
+    background-color: #012B28;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#carrito-lista button:hover {
+    background-color: #EDCB78;
+    color: #012B28;
+}
+
+#vaciar-carrito-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #012B28;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#vaciar-carrito-btn:hover {
+    background-color: #EDCB78;
+    color: #012B28;
+}
+
+#comprar-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #012B28;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#comprar-btn:hover {
+    background-color: #EDCB78;
+    color: #012B28;
+}
+
+#mensaje-confirmacion {
+    display: none;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #012B28;
+    border-radius: 10px;
+    color: white;
+}
+
+.carrito-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #012B28;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carrito-btn:hover {
+    background-color: #EDCB78;
+    color: #012B28;
+}
