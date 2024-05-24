@@ -1,0 +1,11 @@
+[
+    { "id": 1, "nombre": "Maiz", "subtipo": "Amarillo", "precio": 539, "cantidad": 1, "imagen": "assets/img/maiz.png" },
+    { "id": 2, "nombre": "Maiz", "subtipo": "Blanco", "precio": 517, "cantidad": 1, "imagen": "assets/img/maizblanco.png" },
+    { "id": 3, "nombre": "Sorgo", "subtipo": "Forrajero", "precio": 550, "cantidad": 1, "imagen": "assets/img/sorgo.png" },
+    { "id": 4, "nombre": "Soja", "subtipo": "Gris", "precio": 600, "cantidad": 1, "imagen": "assets/img/soja.png" },
+    { "id": 5, "nombre": "Soja", "subtipo": "Negra", "precio": 590, "cantidad": 1, "imagen": "assets/img/soja.png" },
+    { "id": 6, "nombre": "Trigo", "subtipo": "Pan", "precio": 485, "cantidad": 1, "imagen": "assets/img/trigo.png" },
+    { "id": 7, "nombre": "Trigo", "subtipo": "Candeal", "precio": 500, "cantidad": 1, "imagen": "assets/img/trigo.png" },
+    { "id": 8, "nombre": "Girasol", "subtipo": "Confitero", "precio": 425, "cantidad": 1, "imagen": "assets/img/girasol.png" },
+    { "id": 9, "nombre": "Girasol", "subtipo": "Oleaginoso", "precio": 400, "cantidad": 1, "imagen": "assets/img/girasol.png" }
+]
